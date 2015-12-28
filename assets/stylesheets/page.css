@@ -128,3 +128,22 @@ a:visited { color: #265778; }
   :--header h2 { font-size: 128%; }
 }
 
+
+
+.msgAnim-enter {
+  opacity: 0.01;
+  transition: opacity .20s ease-in;
+}
+
+.msgAnim-enter.msgAnim-enter-active {
+  opacity: 1;
+}
+
+.msgAnim-leave {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.msgAnim-leave.msgAnim-leave-active {
+  opacity: 0.01;
+}
